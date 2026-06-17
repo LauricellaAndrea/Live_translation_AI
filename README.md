@@ -1,5 +1,8 @@
 # Live Translation Customer Support 🌐⚡
 
+<img width="1871" height="872" alt="image" src="https://github.com/user-attachments/assets/d886739a-24c9-4081-a13b-a4fb0273fb1b" />
+
+
 Un'applicazione per il Customer Support in tempo reale ad altissima fedeltà e a bassissima latenza, che sfrutta la nuovissima **Gemini Multimodal Live API (`models/gemini-3.5-live-translate-preview`)** per offrire una traduzione vocale bidirezionale istantanea.
 
 L'applicazione cattura la voce dell'operatore o del cliente in italiano, la trasmette tramite streaming binario continuo PCM a un server proxy Node.js/Express, che stabilisce una connessione WebSocket persistente con l'infrastruttura Google ed esegue la sintesi vocale e testuale tradotta quasi istantaneamente nella lingua desiderata.
