@@ -1,0 +1,10 @@
+{
+  "name": "Gemini Live Translate Support",
+  "description": "Instant bi-directional real-time speech translation and voice customer support using Gemini Multimodal Live API.",
+  "requestFramePermissions": [
+    "microphone"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
